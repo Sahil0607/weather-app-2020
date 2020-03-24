@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div>
+            <h1>{{>header}}</h1>
+            <p>this page is created by {{name}}</p>
+
+            <form>
+                <input type="text" placeholder="location">
+                <button>Search</button>
+            </form>
+
+            <p id="location"></p>
+            <p id="forecast"></p>
+
+            <p>Footer</p>
+            <h1>{{>footer}}</h1>
+        </div>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
